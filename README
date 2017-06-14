@@ -1,0 +1,38 @@
+Multi-Channel Instrumental Veto
+
+A suite of tools that correlates detector transients with auxiliary channels.
+
+
+Primary scripts:
+
+glitch_map - calculate 2-D glitch correlation for a pair of instrument channels
+
+deriv_map - calculate 2-D glitch correlation for a channel and its derivative
+
+mask_gen - generate a veto mask from glitch maps
+
+veto_gen - calculate veto segments using a veto mask
+
+seg_study - generate veto statistics 
+
+mciv_web_gen - web page output
+
+
+
+
+Support scripts:
+
+MCIV_start - initializes the mapping routines
+
+MCIV_tools - library of functions for grabbing data, filtering, segment handing and veto safety checks
+
+MCIV_condor - wrapper for MCIV_start that prepares multiple channel pairs for parallel processing
+
+plot_tools - extra plotting for glitch_map output
+
+test_segments - compares MCIV veto segments against veto definer file results for S6 science run
+
+
+
+
+The html page MCIV_Output_SUS-ETMX_COIL_UL is an example of results for a Barkhausen noise investigation.
