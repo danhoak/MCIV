@@ -32,7 +32,3 @@ plot_tools - extra plotting for glitch_map output
 
 test_segments - compares MCIV veto segments against veto definer file results for S6 science run
 
-
-
-
-The html page MCIV_Output_SUS-ETMX_COIL_UL is an example of results for a Barkhausen noise investigation.
